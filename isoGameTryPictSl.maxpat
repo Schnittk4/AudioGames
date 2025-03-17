@@ -31,7 +31,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1021.0, 78.0, 43.0, 22.0 ],
+					"patching_rect" : [ 1229.0, 104.0, 43.0, 22.0 ],
 					"text" : "r posY"
 				}
 
@@ -43,7 +43,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 941.0, 78.0, 43.0, 22.0 ],
+					"patching_rect" : [ 812.0, 117.761194517612466, 43.0, 22.0 ],
 					"text" : "r posX"
 				}
 
@@ -583,7 +583,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
 					"patching_rect" : [ 1547.734923124313354, 127.083227982521066, 125.0, 22.0 ],
-					"text" : "select 119 115 100 97"
+					"text" : "select 97 100 115 119"
 				}
 
 			}
@@ -595,7 +595,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1480.785773694515228, 117.761194517612466, 50.0, 22.0 ],
-					"text" : "8"
+					"text" : "119"
 				}
 
 			}
@@ -1275,7 +1275,7 @@
 
 			}
  ],
-		"originid" : "pat-66",
+		"originid" : "pat-14",
 		"dependency_cache" : [ 			{
 				"name" : "isoPanner.maxpat",
 				"bootpath" : "~/OneDrive/Desktop/matches/AudioGames",

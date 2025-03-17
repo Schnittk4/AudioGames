@@ -14,6 +14,20 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 33.741107291902544,
+					"id" : "obj-26",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 607.0, 308.0, 426.0, 84.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 607.0, 283.0, 370.0, 84.0 ],
+					"text" : "wasd to move\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "newobj",
 					"numinlets" : 6,
@@ -482,7 +496,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1480.785773694515228, 117.761194517612466, 50.0, 22.0 ],
-					"text" : "115"
+					"text" : "100"
 				}
 
 			}
@@ -1148,7 +1162,7 @@
 
 			}
  ],
-		"originid" : "pat-66",
+		"originid" : "pat-6",
 		"dependency_cache" : [ 			{
 				"name" : "isoPanner.maxpat",
 				"bootpath" : "~/OneDrive/Desktop/matches/AudioGames",

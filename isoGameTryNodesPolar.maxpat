@@ -10,9 +10,275 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1467.0, 921.0 ],
+		"rect" : [ 34.0, 77.0, 1452.0, 921.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 148.0, 994.0, 150.0, 22.0 ],
+					"text" : "if $f1 < 0.2 then 0. else $f1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1527.966138124465942, 856.164321303367615, 50.0, 36.0 ],
+					"presentation_linecount" : 2,
+					"text" : "-3.01808"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-236",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1490.058414697647095, 931.0, 150.0, 34.0 ],
+					"text" : "it's clearly over 1 and still sending bangFURKK"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-232",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1446.783562779426575, 752.2222580909729, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-231",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1161.111166477203369, 823.333372592926025, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-229",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1367.0, 977.777824401855469, 50.0, 22.0 ],
+					"text" : "0.753"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-228",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1346.0, 765.432159900665283, 36.0, 22.0 ],
+					"text" : ">= 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-223",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1370.0, 894.0, 29.5, 22.0 ],
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-224",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1441.0, 894.0, 29.5, 22.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-225",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1452.0, 816.0, 29.5, 22.0 ],
+					"text" : "2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-226",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1411.0, 812.0, 29.5, 22.0 ],
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-227",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 1426.0, 860.0, 60.0, 22.0 ],
+					"text" : "select 1 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-222",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1381.0, 937.0, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-221",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1196.612352073192596, 907.692394256591797, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-213",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1235.0, 890.0, 29.5, 22.0 ],
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-212",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1229.0, 974.547878265380859, 50.0, 22.0 ],
+					"text" : "0.421"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-210",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1306.25, 890.0, 29.5, 22.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-208",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1317.0, 812.0, 29.5, 22.0 ],
+					"text" : "2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-202",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1260.0, 933.0, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-199",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1273.011694252490997, 824.333372592926025, 29.5, 22.0 ],
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-194",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 1291.0, 856.164321303367615, 60.0, 22.0 ],
+					"text" : "select 1 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-193",
+					"linecount" : 8,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1216.011694252490997, 1076.712250471115112, 150.0, 117.0 ],
+					"text" : "why doesn't the amplitude change on x axis? it should be 1 on the circumference no? \nProblem: amplitude doesn't change on Y axis until x axis is updated? why?"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-188",
 					"maxclass" : "message",
@@ -20,19 +286,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 516.0, 926.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-186",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1381.0, 713.0, 50.0, 36.0 ],
-					"text" : "-0.011269"
 				}
 
 			}
@@ -89,8 +342,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1291.0, 765.432159900665283, 29.5, 22.0 ],
-					"text" : "< 1"
+					"patching_rect" : [ 1292.0, 765.0, 29.5, 22.0 ],
+					"text" : "< 2."
 				}
 
 			}
@@ -103,7 +356,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1033.994011878967285, 822.033917903900146, 50.0, 36.0 ],
-					"text" : "0.097849"
+					"text" : "-0.292151"
 				}
 
 			}
@@ -115,8 +368,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1185.0, 762.0, 50.0, 36.0 ],
-					"text" : "0.098495"
+					"patching_rect" : [ 1192.372825920581818, 743.423114895820618, 50.0, 36.0 ],
+					"text" : "0.294394"
 				}
 
 			}
@@ -285,8 +538,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1685.561448097229004, 250.512061238288879, 150.0, 227.0 ],
-					"presentation_linecount" : 16,
+					"patching_rect" : [ 1482.307838439941406, 273.170738220214844, 153.0, 227.0 ],
 					"text" : "try polar coordinates\ndont know how worak\nmaybe if i clipped to the the diameter and scaled it from 0. 0.2, then got polar coordinates i can just think about amplitude\n\nthat gives a separate system. But how do you have that system act in tandem with the larger system?\nit's receiving the reference point from the bigger system, this could work!!!!"
 				}
 
@@ -349,7 +601,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 278.574072003364563, 786.740726292133331, 50.0, 77.0 ],
-					"text" : "0.47943 0.265746 0.2 1"
+					"text" : "0.47057 0.283282 0.2 1"
 				}
 
 			}
@@ -391,73 +643,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-41",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1461.0, 946.0, 50.0, 22.0 ],
-					"text" : "0.678"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-50",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1517.0, 946.0, 50.0, 22.0 ],
-					"text" : "0.139"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-18",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1347.0, 946.0, 50.0, 22.0 ],
-					"text" : "0.678"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-132",
-					"linecount" : 10,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1617.0, 608.547014713287354, 158.0, 144.0 ],
-					"text" : "can't get this conditional to work. when i give the condition to on both of them with && it they update automatically. Need to figure out a way to trigger them at the same time each time movement happens. Maybe a t f b f b and some messages?"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-151",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1443.209991812705994, 765.432159900665283, 150.0, 89.0 ],
+					"patching_rect" : [ 1456.153989791870117, 1043.212250471115112, 150.0, 89.0 ],
 					"text" : "getting range of node 1 \noutputting 0 at the radicals\nworks in numbrs, not get signal\nwill figure out lates\n"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-126",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1406.0, 946.0, 50.0, 22.0 ],
-					"text" : "0.26"
 				}
 
 			}
@@ -533,19 +725,6 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1628.0, 492.769999999999982, 49.0, 22.0 ],
 					"text" : "> 0.069"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-54",
-					"linecount" : 14,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 754.0, 642.962941884994507, 150.0, 213.0 ],
-					"text" : "\nn 1:\nx: 0.268 - 0.678\ny: 0.459 - 0.069\n\nn 2 \nx: 0.561 - 0.955\ny: 0.629 - 0.234 - \n\nn  3 \nx: 0.01 - 0.49\ny: 0.884 - 0.376\n\nDon't use fixed values***\n",
-					"textcolor" : [ 1.0, 0.003921568627451, 0.003921568627451, 1.0 ]
 				}
 
 			}
@@ -760,7 +939,7 @@
 						"originid" : "pat-8"
 					}
 ,
-					"patching_rect" : [ 1532.236827492713928, 384.337363600730896, 29.5, 22.0 ],
+					"patching_rect" : [ 1952.933805465698242, 207.024103999137878, 29.5, 22.0 ],
 					"text" : "gen"
 				}
 
@@ -852,18 +1031,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-206",
-					"linecount" : 8,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 785.0, 238.356147050857544, 155.0, 131.0 ],
-					"text" : "scaling to 0.5 won't work: if i do, the circle wouldn't properly end? though maybe? yeah, no, scaling alone won't do it, the circle is acting like a 0. 0.5 phased cos wave with abs~\n"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-201",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -934,19 +1101,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 18.975640503499591,
-					"id" : "obj-146",
-					"linecount" : 9,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 353.921703577041626, 279.0, 225.0 ],
-					"text" : "problems:\npict slider was moving the sound source in dependence to the center. try moving the pict slider around in a way where it's movement is the analog of the player's movement not the movment of the sound source\n\n"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-139",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -996,8 +1150,8 @@
 					"outlettype" : [ "", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 312.048204302787781, 346.428568124771118, 359.036157846450806, 287.951817870140076 ],
-					"xplace" : [ 0.479430288188829, 0.75949092509474, 0.238255033557047 ],
-					"yplace" : [ 0.265746196769729, 0.433152947652045, 0.627615062761506 ]
+					"xplace" : [ 0.470570420290282, 0.75949092509474, 0.238255033557047 ],
+					"yplace" : [ 0.28328153119011, 0.433152947652045, 0.627615062761506 ]
 				}
 
 			}
@@ -1818,15 +1972,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-161", 1 ],
-					"order" : 1,
-					"source" : [ "obj-156", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-186", 1 ],
-					"order" : 0,
 					"source" : [ "obj-156", 0 ]
 				}
 
@@ -1841,7 +1986,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-163", 1 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-161", 0 ]
 				}
 
@@ -1849,6 +1994,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-175", 0 ],
+					"order" : 1,
+					"source" : [ "obj-161", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-228", 0 ],
 					"order" : 0,
 					"source" : [ "obj-161", 0 ]
 				}
@@ -1856,8 +2009,31 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"source" : [ "obj-161", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-226", 0 ],
+					"order" : 0,
+					"source" : [ "obj-175", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-231", 0 ],
+					"order" : 1,
+					"source" : [ "obj-175", 0 ]
 				}
 
 			}
@@ -1902,6 +2078,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-210", 0 ],
+					"source" : [ "obj-194", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-213", 0 ],
+					"order" : 0,
+					"source" : [ "obj-194", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-221", 0 ],
+					"order" : 1,
+					"source" : [ "obj-194", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-139", 0 ],
 					"source" : [ "obj-196", 0 ]
 				}
@@ -1916,7 +2115,23 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-194", 0 ],
+					"source" : [ "obj-199", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-149", 0 ],
+					"order" : 1,
+					"source" : [ "obj-200", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-202", 1 ],
+					"order" : 0,
 					"source" : [ "obj-200", 0 ]
 				}
 
@@ -1924,7 +2139,30 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-150", 0 ],
+					"order" : 1,
 					"source" : [ "obj-201", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-222", 1 ],
+					"order" : 0,
+					"source" : [ "obj-201", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-212", 1 ],
+					"source" : [ "obj-202", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-194", 0 ],
+					"source" : [ "obj-208", 0 ]
 				}
 
 			}
@@ -1937,6 +2175,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-202", 0 ],
+					"source" : [ "obj-210", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-202", 0 ],
+					"source" : [ "obj-213", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-22", 0 ]
 				}
@@ -1944,8 +2196,88 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-229", 0 ],
+					"source" : [ "obj-222", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-222", 0 ],
+					"source" : [ "obj-223", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-222", 0 ],
+					"source" : [ "obj-224", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-227", 0 ],
+					"source" : [ "obj-225", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-227", 0 ],
+					"source" : [ "obj-226", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-223", 0 ],
+					"source" : [ "obj-227", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-224", 0 ],
+					"source" : [ "obj-227", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-208", 0 ],
+					"order" : 2,
+					"source" : [ "obj-228", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-225", 0 ],
+					"order" : 0,
+					"source" : [ "obj-228", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-232", 0 ],
+					"order" : 1,
+					"source" : [ "obj-228", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-112", 0 ],
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-199", 0 ],
+					"source" : [ "obj-231", 0 ]
 				}
 
 			}
@@ -2051,6 +2383,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
+					"order" : 0,
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-91", 0 ],
+					"order" : 1,
 					"source" : [ "obj-48", 0 ]
 				}
 
